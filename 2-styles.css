@@ -265,3 +265,173 @@ button:hover:active {
   top: 25%;
   left: 30px;
 }
+
+
+@media screen and (min-width: 767px) {
+  .menu-icon {
+    display: none;
+  }
+
+  .title-headphones {
+    margin: -20px -10px;
+    top: 40px;
+  }
+
+  .title-header {
+    margin-top: 30%;
+  }
+
+  .description {
+    margin-top: -2%;
+  }
+
+  .paragraf {
+    padding: 0;
+    width: 637px;
+  }
+  ul {
+    display: flex;
+    flex-direction: row;
+    margin: 0%;
+    top: 40px;
+    left: 50%;
+  }
+
+  .nav-item {
+    color: aliceblue;
+    padding: 20px;
+  }
+
+  .hero-background {
+    background-image: url("images/headphones_hero_1.jpg");
+    width: 768px;
+    height: 800px;
+    background-size: cover;
+    background-position: 50% 0%;
+    background-repeat: no-repeat;
+  }
+
+  .title-we-do{
+  margin-top: 15%;
+  }
+
+  .paragraf-two {
+    width: 637px;
+    padding-top: 0%;
+    margin-left: 66px;
+    height: 8%;
+  }
+
+  .icon-section {
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 0%;
+  }
+
+  .mini-container {
+    width: 40%;
+  }
+
+  .what-we-do{
+    margin-bottom: -50%;
+  }
+
+  .mini-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .container-pentagones{
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .content-pentagone{
+    width: 45%;
+  }
+
+  .content-pentagone div {
+    left: 32%;
+  }
+
+  .contact-us {
+    width: 60%;
+    margin-left: 20%;
+  }
+
+  .icon-social-media {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (min-width: 1400px){
+  .hero-background {
+    width: 100%;
+    height: 800px;
+  }
+
+  .title-headphones {
+    margin: -8% 60px;
+    left: 5;
+  }
+
+  ul {
+    left: 60%;
+  }
+
+  .title-header {
+    margin-top: 5%;
+    margin-bottom: 3%;
+  }
+
+  button {
+    margin: 2%;
+  }
+
+  .paragraf {
+    margin-top: 3%;
+  }
+
+    .title-we-do {
+      margin-top: 10%;
+    }
+  .paragraf-two {
+    margin-left: 25%;
+    margin-top: 2%;
+  }
+
+  .icon-section {
+    flex-wrap: nowrap;
+    margin: 0 auto;
+    width: 80%;
+  }
+
+  .mini-container {
+    width: 20%;
+  }
+
+  .paragraf-results {
+    width: 45%;
+    margin-left: 30%;
+    margin-top: -8%;
+  }
+
+  .container-pentagones {
+    flex-wrap: nowrap;
+    width: 80%;
+    margin-left: 10%;
+  }
+
+  .content-pentagone div {
+    left: 28%;
+  }
+
+  .contact-us {
+    width: 25%;
+    margin-left: 40%;
+  }
+}
