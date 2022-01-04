@@ -1,0 +1,343 @@
+@font-face {
+  font-family: "souce";
+  src: url("fonts/SourceSansPro-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "souce";
+  src: url("fonts/SourceSansPro-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+html {
+  margin: 0%;
+  background-color: white;
+}
+body {
+  margin: 0%;
+  padding: 0%;
+  font-family: "souce";
+}
+
+
+.header-section{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.hero-background {
+  background-image: url("images/headphones_hero_1.jpg");
+  height: 869px;
+  background-size: cover;
+  background-position: 35% -50px;
+  background-repeat: no-repeat;
+}
+
+.title-headphones{
+  width: 135px;
+  height: 30px;
+  margin: 0 auto;
+}
+
+.container-header {
+  margin: 0%;
+  display: flex;
+  padding: 10%;
+}
+
+ul {
+  text-decoration: none;
+  margin: 10%;
+  padding: 0%;
+  display: none;
+  position: absolute;
+  top: 75px;
+  bottom: 75px;
+  left: 30%;
+}
+
+label {
+  cursor: pointer;
+  box-sizing: border-box;
+  display: block;
+  border-radius: 5px;
+  line-height: 30px;
+  font-weight: bold;
+  text-align: center;
+  user-select: none;
+}
+
+input#menu-btn {
+  position: absolute;
+  top: -9999px;
+}
+
+input:checked ~ ul {
+  display: block;
+}
+
+.nav-item {
+  color: aliceblue;
+}
+
+nav {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  display: flex;
+}
+
+.header .nav {
+  flex-direction: column;
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height .2s ease-out;
+}
+
+li {
+  list-style: none;
+  display: block;
+  padding: 15px;
+}
+
+.nav-menu {
+  display: flex;
+  flex-direction: column;
+}
+
+ .title-header {
+  color: aliceblue;
+  text-align: center;
+  font-family: "souce";
+  margin-top: 40%;
+  margin-left: 10px;
+  font-size:200%;
+}
+
+.description {
+  color: aliceblue;
+  text-align: center;
+  font-family: "souce";
+  font-style: italic;
+  margin-left: 66px;
+  margin-right: 66px;
+  margin-top: -5%;
+}
+
+button {
+  border-radius: 22px;
+  background-color: #FF6565;
+  color: aliceblue;
+  border-color: #FF6565;
+  shape-margin: 0%;
+  width: 162px;
+  height: 44px;
+  margin-top: 10px;
+}
+ 
+button:hover:active {
+  opacity: 0.9
+}
+
+.paragraf {
+  color: aliceblue;
+  margin: 5%;
+  padding-top: 10%;
+  width: 335px;
+  Height:182px;
+  top:300px;
+  Left:11px;
+  box-sizing: border-box;
+  line-height: 26px;
+  text-align: center;
+  font-family: "souce";
+}
+
+.title-we-do {
+  color: black;
+  text-align: center;
+  font-family: "souce";
+  margin-top: 0%;
+  margin-left: 10px;
+  font-size:200%;
+}
+
+.paragraf-two{
+  margin: 5%;
+  padding-top: 10%;
+  width: 335px;
+  Height:182px;
+  top:300px;
+  Left:11px;
+  box-sizing: border-box;
+  line-height: 26px;
+  text-align: center;
+  font-family: "souce";
+}
+
+.icon {
+  display: inline-block;
+  width: 5em;
+  height: 10em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+  color: #FF6565;
+  margin-bottom: -2.5rem;
+}
+
+.icon-section{
+  display: flex;
+  width: 56%;
+  margin-left: 22%;
+  margin-top: 5rem;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.what-we-do{
+  display: flex;
+  flex-direction: column;
+  height: 87rem;
+}
+
+.title-icon {
+  margin-bottom: 0.5rem;
+}
+
+.content {
+  text-align: center;
+}
+
+.our-results{
+  background: #071629;
+  background-image: url("images/headphones_hero_2.jpg");
+  min-height: 500px;
+  background-position: 50% -50px;
+  background-repeat: no-repeat;
+}
+
+.title-resuts {
+  color: aliceblue;
+  text-align: center;
+  font-family: "souce";
+  font-size: 32px;
+  padding-top: 10rem;
+}
+
+.paragraf-results {
+  display: flex;
+  color: aliceblue;
+  margin: 0rem 3rem;
+  padding-top: 10%;
+  line-height: 26px;
+  text-align: center;
+  font-family: "souce";
+}
+
+.container-pentagones{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+  padding-bottom: 100px;
+}
+
+.content-pentagone {
+  position: relative;
+  color: aliceblue;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.pentagone {
+  width: 190px;
+}
+
+.content-pentagone div{
+  position: absolute;
+  top: 25%;
+  left: 30px;
+}
+
+.contact-us {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 5rem;
+  margin-bottom: 8rem;
+}
+label {
+  text-align: left;
+}
+
+input {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-color: #071629;
+  width: 100%;
+  padding:0%;
+}
+
+form {
+  width: 80%;
+  margin-bottom: 2rem;
+}
+
+.footer {
+  background-color: #071629;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icon-head-footer{
+width: 140px;
+height: 30px;
+margin-top: 3rem;
+}
+
+.icon-footer {
+  display: inline-block;
+  width: 2em;
+  margin: 1px;
+  height: 10rem;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+  color: white;
+  margin-top: -1.5rem;
+  margin-bottom: -3.5rem;
+}
+
+h5 {
+  color: #FFFFFF;
+  opacity: 36%;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+@media screen and (min-width: 767px) {
+  .menu-icon {
+    display: none;
+  }
+
+  .title-headphones {
+    margin: 0 0;
+  }
+
+  ul {
+    display: flex;
+    flex-direction: row;
+  }
+
+  /* input:checked ~ ul {} */
+}

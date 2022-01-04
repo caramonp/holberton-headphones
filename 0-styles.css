@@ -1,0 +1,159 @@
+@font-face {
+  font-family: "souce";
+  src: url("fonts/SourceSansPro-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "souce";
+  src: url("fonts/SourceSansPro-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+html {
+  margin: 0%;
+  background-color: white;
+}
+body {
+  margin: 0%;
+  padding: 0%;
+  font-family: "souce";
+}
+
+
+.header-section{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.hero-background {
+  background-image: url("images/headphones_hero_1.jpg");
+  height: 869px;
+  background-size: cover;
+  background-position: 35% -50px;
+  background-repeat: no-repeat;
+}
+
+.title-headphones{
+  width: 135px;
+  height: 30px;
+  margin: 0 auto;
+}
+
+.container-header {
+  margin: 0%;
+  display: flex;
+  padding: 10%;
+}
+
+ul {
+  text-decoration: none;
+  margin: 10%;
+  padding: 0%;
+  display: none;
+  position: absolute;
+  top: 75px;
+  bottom: 75px;
+  left: 30%;
+}
+
+label {
+  cursor: pointer;
+  box-sizing: border-box;
+  display: block;
+  border-radius: 5px;
+  line-height: 30px;
+  font-weight: bold;
+  text-align: center;
+  user-select: none;
+}
+
+input#menu-btn {
+  position: absolute;
+  top: -9999px;
+}
+
+input:checked ~ ul {
+  display: block;
+}
+
+.nav-item {
+  color: aliceblue;
+}
+
+nav {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  display: flex;
+}
+
+.header .nav {
+  flex-direction: column;
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height .2s ease-out;
+}
+
+li {
+  list-style: none;
+  display: block;
+  padding: 15px;
+}
+
+.nav-menu {
+  display: flex;
+  flex-direction: column;
+}
+
+ .title-header {
+  color: aliceblue;
+  text-align: center;
+  font-family: "souce";
+  margin-top: 40%;
+  margin-left: 10px;
+  font-size:200%;
+}
+
+.description {
+  color: aliceblue;
+  text-align: center;
+  font-family: "souce";
+  font-style: italic;
+  margin-left: 66px;
+  margin-right: 66px;
+  margin-top: -5%;
+}
+
+button {
+  border-radius: 22px;
+  background-color: #FF6565;
+  color: aliceblue;
+  border-color: #FF6565;
+  shape-margin: 0%;
+  width: 162px;
+  height: 44px;
+  margin-top: 10px;
+}
+ 
+button:hover:active {
+  opacity: 0.9
+}
+
+.paragraf {
+  color: aliceblue;
+  margin: 5%;
+  padding-top: 10%;
+  width: 335px;
+  Height:182px;
+  top:300px;
+  Left:11px;
+  box-sizing: border-box;
+  line-height: 26px;
+  text-align: center;
+  font-family: "souce";
+}
