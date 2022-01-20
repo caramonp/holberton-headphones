@@ -1,0 +1,192 @@
+html {
+  margin: 0%;
+}
+body {
+  margin: 0%;
+  padding: 0%;
+}
+
+
+.get-schooled {
+  background-image: url('images/pic_1.jpg');
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-color: #071629;
+}
+
+.icon {
+  margin-top: 30%;
+  color: aliceblue;
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+
+.smile-logo{
+  height: 30px;
+  width: 36px;
+}
+
+.smile-school{
+  width: 114px;
+  margin-top: 24px;
+  margin-left: 3%;
+}
+
+.container-fluid{
+  max-width: 90px;
+}
+
+.title-header{
+  font-weight: 700;
+  font-size: 61px;
+  line-height: 77px;
+}
+
+h3 {
+  font-size: 16px;
+}
+
+.description{
+  width: 253px;
+  align-self: center;
+}
+
+.register-free{
+  width: 162px;
+  height: 44px;
+  background-color: #C271FF;
+  border-color:#C271FF;
+}
+
+.leanr-pros{
+  margin-top: 168px;
+}
+.learn{
+  color: #C271FF;
+}
+
+.photos {
+  width: 150px;
+  height: 150px;
+}
+
+.avatar {
+  width: 148px;
+  height: 148px;
+  margin-top: 20%;
+  margin-bottom: 10%;
+}
+
+.testimonials{
+  background-color: #C271FF;
+}
+
+.carousel-videos .carousel-item.active,
+.carousel-videos .carousel-item-next,
+.carousel-videos .carousel-item-prev {
+    display: flex;
+}
+
+.carousel-videos .carousel-item-end,
+.carousel-videos .carousel-item-start { 
+  transform: translateX(0);
+}
+
+.phillip{
+  color: #C271FF;
+}
+
+.pass-arrow-next{
+
+  background-image: url("images/arrow_black_right.png");
+  margin-left: 100%;
+  margin-top: 10%;
+  height: 50%;
+  background-repeat: no-repeat;
+}
+
+.pass-arrow-prev{
+
+  background-image: url("images/arrow_black_left.png");
+  margin-right: 90%;
+  margin-top: 10%;
+  height: 50%;
+  background-repeat: no-repeat;
+}
+
+.image-play{
+  z-index: 1;
+  height: 50%;
+  margin-left: 5rem;
+}
+
+@media screen and (max-width: 767px){
+  .smile-school{
+    width: 114px;
+    margin-top: 24px;
+  }
+
+  .menu {
+    top: 200px;
+    position: absolute;
+  }
+
+  .menu-button{
+    margin-left: 15%;
+  }
+
+  .title-header{
+    font-weight: 700;
+    font-size: 61px;
+    margin-top: 50%;
+    line-height: 77px;
+  }
+
+  .leanr-pros{
+    margin-top: 150px;
+  }
+
+  .tutorails{
+    width: 80%;
+  }
+
+  .carousel-videos .carousel-item > div {
+    display: none;
+  }
+  .carousel-videos .carousel-item > div:first-child {
+    display: block;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .logos {
+    margin-right: 15%;
+    margin-top: -65px;
+    }
+
+  .carousel {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .carousel-videos .carousel-item-end.active,
+  .carousel-videos .carousel-item-next {
+    transform: translateX(0%);
+  }
+  
+  .carousel-videos .carousel-item-start.active, 
+  .carousel-videos .carousel-item-prev {
+    transform: translateX(0%);
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .avatar{
+    width: 160px;
+    height: 160px;
+  }
+}
